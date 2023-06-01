@@ -23,9 +23,9 @@ function withdraw(amt) {
 }
 
 for (x=0; x<3; x++) {
-    readline.question("Passcode:\n", code => {
+    readline.question("Passcode: ", code => {
         if (verifyIdentity(code) == true) {
-            readline.question("Amount:\n", amt => {
+            readline.question("Amount: ", amt => {
                 if (withdraw) {
                     console.log("Thanks for your business!")
                     readline.close();
