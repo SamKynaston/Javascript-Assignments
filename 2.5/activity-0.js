@@ -1,4 +1,4 @@
 function favColor() {
-    print("Red")
+    console.log("Red")
 }
 favColor()
